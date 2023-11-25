@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorOfArea", "CalculatorOfArea.csproj", "{DC28D031-A262-43EA-86C5-0AB3956E1453}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorOfArea", "CalculatorOfArea.csproj", "{DC28D031-A262-43EA-86C5-0AB3956E1453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppForVisualization", "..\ConsoleAppForVisualization\ConsoleAppForVisualization.csproj", "{BAE13519-64D9-4B91-AF81-E2020B4D7200}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DC28D031-A262-43EA-86C5-0AB3956E1453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC28D031-A262-43EA-86C5-0AB3956E1453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC28D031-A262-43EA-86C5-0AB3956E1453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE13519-64D9-4B91-AF81-E2020B4D7200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE13519-64D9-4B91-AF81-E2020B4D7200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE13519-64D9-4B91-AF81-E2020B4D7200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE13519-64D9-4B91-AF81-E2020B4D7200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
