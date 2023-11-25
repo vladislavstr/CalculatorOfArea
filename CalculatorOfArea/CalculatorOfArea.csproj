@@ -4,6 +4,39 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>CalculatorOfArea</Title>
+    <Version>1.0.0</Version>
+    <Authors>Vladislav Strelnikov</Authors>
+    <PackageId>vladislavstr.CalculatorOfAreaNuGet</PackageId>
+    <Description>Library for calculating the area of a circle by radius and a triangle by three sides</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vladislavstr/CalculatorOfArea</RepositoryUrl>
+    <PackageTags>Calculator, Area, Circle, Triangle</PackageTags>
+    <PackAsTool>False</PackAsTool>
+    <Product>CalculatorOfArea</Product>
+    <Company>vladislavstr</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>Icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
