@@ -5,7 +5,12 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorOfArea", "CalculatorOfArea.csproj", "{DC28D031-A262-43EA-86C5-0AB3956E1453}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppForVisualization", "..\ConsoleAppForVisualization\ConsoleAppForVisualization.csproj", "{BAE13519-64D9-4B91-AF81-E2020B4D7200}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppForVisualization", "..\ConsoleAppForVisualization\ConsoleAppForVisualization.csproj", "{BAE13519-64D9-4B91-AF81-E2020B4D7200}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stored Procedures", "Stored Procedures", "{9B008845-50B9-4D4D-99C3-AF92B40EED1D}"
+	ProjectSection(SolutionItems) = preProject
+		GeneratedProductsDBAndGetAllProductsWithCategories.sql = GeneratedProductsDBAndGetAllProductsWithCategories.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
